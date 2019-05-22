@@ -8,7 +8,7 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String hello(){
-        System.out.println("测试代码1");
+        System.out.println("测试代码2");
         return "hello world";
     }
 }
